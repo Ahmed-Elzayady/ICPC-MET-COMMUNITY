@@ -135,9 +135,13 @@ ul li a:hover {
     position: relative;
     left: 50%;
     right: 50%;
-    transform: translate(-281px, -13px);
+    transform: translate(-200px, -13px);
     top: 20px;
-  }
+    -webkit-transform: translate(-200px, -13px);
+    -moz-transform: translate(-200px, -13px);
+    -ms-transform: translate(-200px, -13px);
+    -o-transform: translate(-200px, -13px);
+}
   nav ul li {
     margin-bottom: 30px;
     font-size: 25px;
