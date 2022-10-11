@@ -215,8 +215,10 @@ ul li a:hover {
 .landing h1 {
   /* font-size: 75px; */
   color: #022c43;
-  border-bottom: 4px solid  var(--sec-color)
+  border-bottom: 4px solid  var(--sec-color);
+  padding-bottom: 10px;
   /* max-width: 600px; */
+
 }
 @media(max-width : 1354px) {
   .landing .container .all-cont .gif img  {
