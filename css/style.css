@@ -1,7 +1,15 @@
+:root {
+  --main-color: #022c43;
+  --sec-color: #ffd700;
+}
 body {
   font-family: "Work Sans", sans-serif;
   text-transform: capitalize;
   position: relative;
+  background-image: url(../images/body-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   /* min-height: 250vh; */
 }
@@ -135,12 +143,12 @@ ul li a:hover {
     position: relative;
     left: 50%;
     right: 50%;
-    transform: translate(-200px, -13px);
+    transform: translate(-220px, -13px);
     top: 20px;
-    -webkit-transform: translate(-200px, -13px);
-    -moz-transform: translate(-200px, -13px);
-    -ms-transform: translate(-200px, -13px);
-    -o-transform: translate(-200px, -13px);
+    -webkit-transform: translate(-220px, -13px);
+    -moz-transform: translate(-220px, -13px);
+    -ms-transform: translate(-220px, -13px);
+    -o-transform: translate(-220px, -13px);
 }
   nav ul li {
     margin-bottom: 30px;
@@ -174,3 +182,60 @@ ul li a:hover {
 }
 
 /* end nav bar section */
+
+/* start landing section */
+
+.landing {
+  margin-top: 150px;
+}
+.landing .container .all-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.landing .container .all-cont .gif img {
+  width: 700px;
+}
+
+.landing .container .all-cont .text h2 {
+  line-height: 1.8;
+  /* padding-right: 25px; */
+  max-width: 500px;
+  font-size: 30px;
+
+}
+
+.landing .container {
+  width: 70%;
+}
+/* end landing  section */
+
+.landing h1 {
+  /* font-size: 75px; */
+  color: #022c43;
+  border-bottom: 4px solid  var(--sec-color)
+  /* max-width: 600px; */
+}
+@media(max-width : 1354px) {
+  .landing .container .all-cont .gif img  {
+    width: 300px;
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+@media(max-width: 1007px) {
+  .landing .container .all-cont  {
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 760px) {
+  .landing .container .all-cont {
+    display: block;
+  }
+}
+
