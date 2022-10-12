@@ -139,7 +139,7 @@ ul li a:hover {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    opacity: 0;
+ display: none;
     position: relative;
     left: 50%;
     right: 50%;
@@ -149,6 +149,7 @@ ul li a:hover {
     -moz-transform: translate(-220px, -13px);
     -ms-transform: translate(-220px, -13px);
     -o-transform: translate(-220px, -13px);
+    z-index: 5456456485648648489;
 }
   nav ul li {
     margin-bottom: 30px;
@@ -161,7 +162,7 @@ ul li a:hover {
   }
 
   nav.active ul {
-    opacity: 1;
+    display: block;
   }
 
   ul li:hover {
@@ -241,3 +242,73 @@ ul li a:hover {
   }
 }
 
+/* end landing section */
+
+/* start about section */
+.about {
+  margin-top: 100px;
+}
+
+.about .container h1 {
+  color: var(--sec-color);
+  font-size: 60px;
+  /* border-bottom: 3px solid var(--main-color); */
+  padding-bottom: 5px;
+  text-align: center;
+  /* width: fit-content; */
+  margin-bottom: 0px;
+}
+.about .container h1 span.us {
+  color: var(--main-color);
+}
+.about .container {
+  width: 90%;
+}
+
+.about hr {
+  width: 400px;
+  height: 2px;
+  background-color: var(--sec-color);
+outline: 1px solid transparent;
+border: 1ps solid transparent;
+}
+
+.about .container .all-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+
+.about .container .all-text p {
+  font-size: 20px;
+  color: #333;
+  line-height: 2.5;
+  font-weight: bold;
+}
+
+@media(max-width: 1007px) {
+  .about .container .all-text  {
+    /* flex-wrap: wrap; */
+  }
+}
+
+@media(max-width: 760px) {
+  .about .container .all-text {
+    display: block;
+  }
+
+  .about .container .all-text p {
+    text-align: center;
+  }
+}
+
+@media(max-width : 760px) {
+  .about .container .all-text .image-about img  {
+    width: 340px;
+    position: absolute;
+    left: 30px;
+  }
+}
+/* end about section */
