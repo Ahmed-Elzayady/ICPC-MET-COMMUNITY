@@ -14,8 +14,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   user-select: none;
-
-  /* min-height: 250vh; */
 }
 
 .container {
