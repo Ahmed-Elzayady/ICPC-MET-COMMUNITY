@@ -139,7 +139,7 @@ ul li a:hover {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
- display: none;
+    display: none;
     position: relative;
     left: 50%;
     right: 50%;
@@ -150,7 +150,7 @@ ul li a:hover {
     -ms-transform: translate(-220px, -13px);
     -o-transform: translate(-220px, -13px);
     z-index: 5456456485648648489;
-}
+  }
   nav ul li {
     margin-bottom: 30px;
     font-size: 25px;
@@ -205,7 +205,6 @@ ul li a:hover {
   /* padding-right: 25px; */
   max-width: 500px;
   font-size: 30px;
-
 }
 
 .landing .container {
@@ -216,13 +215,12 @@ ul li a:hover {
 .landing h1 {
   /* font-size: 75px; */
   color: #022c43;
-  border-bottom: 4px solid  var(--sec-color);
+  border-bottom: 4px solid var(--sec-color);
   padding-bottom: 10px;
   /* max-width: 600px; */
-
 }
-@media(max-width : 1354px) {
-  .landing .container .all-cont .gif img  {
+@media (max-width: 1354px) {
+  .landing .container .all-cont .gif img {
     width: 300px;
   }
   .container {
@@ -230,13 +228,13 @@ ul li a:hover {
   }
 }
 
-@media(max-width: 1007px) {
-  .landing .container .all-cont  {
+@media (max-width: 1007px) {
+  .landing .container .all-cont {
     flex-wrap: wrap;
   }
 }
 
-@media(max-width: 760px) {
+@media (max-width: 760px) {
   .landing .container .all-cont {
     display: block;
   }
@@ -269,8 +267,8 @@ ul li a:hover {
   width: 400px;
   height: 2px;
   background-color: var(--sec-color);
-outline: 1px solid transparent;
-border: 1ps solid transparent;
+  outline: 1px solid transparent;
+  border: 1ps solid transparent;
 }
 
 .about .container .all-text {
@@ -280,7 +278,6 @@ border: 1ps solid transparent;
   /* flex-wrap: wrap; */
 }
 
-
 .about .container .all-text p {
   font-size: 20px;
   color: #333;
@@ -288,13 +285,8 @@ border: 1ps solid transparent;
   font-weight: bold;
 }
 
-@media(max-width: 1007px) {
-  .about .container .all-text  {
-    /* flex-wrap: wrap; */
-  }
-}
 
-@media(max-width: 760px) {
+@media (max-width: 760px) {
   .about .container .all-text {
     display: block;
   }
@@ -304,9 +296,9 @@ border: 1ps solid transparent;
   }
 }
 
-@media(max-width : 760px) {
-  .about .container .all-text .image-about img  {
-    width: 340px;
+@media (max-width: 760px) {
+  .about .container .all-text .image-about img {
+    width: 310px;
     position: absolute;
     left: 30px;
   }
