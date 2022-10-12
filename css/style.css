@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .container {
@@ -352,3 +352,122 @@ ul li a:hover {
   }
 }
 /* end about section */
+
+
+/* start gallery section */
+.gallery {
+  margin-top: 150px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containers {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: var(--main-color);
+  padding: 2px 16px;
+  color: var(--sec-color);
+  font-weight: bold;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.gallery h1 {
+  color: var(--sec-color);
+  font-size: 60px;
+  /* border-bottom: 3px solid var(--main-color); */
+  padding-bottom: 5px;
+  text-align: center;
+  /* width: fit-content; */
+  margin-bottom: 0px;
+}
+.gallery h1 span.us {
+  color: var(--main-color);
+}
+.gallery .container {
+  width: 90%;
+}
+
+.gallery hr {
+  width: 300px;
+  height: 2px;
+  background-color: var(--sec-color);
+  outline: 1px solid transparent;
+  border: 1ps solid transparent;
+  margin-bottom: 30px;
+}
