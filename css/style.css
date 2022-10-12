@@ -48,7 +48,6 @@ body {
 
 /* start nav-bar section */
 
-
 @keyframes down {
   0% {
     transform: translate(0px);
@@ -56,15 +55,15 @@ body {
     -moz-transform: translate(0px);
     -ms-transform: translate(0px);
     -o-transform: translate(0px);
-}
+  }
 
-100% {
-  transform: translate(10px);
-  -webkit-transform: translate(10px);
-  -moz-transform: translate(10px);
-  -ms-transform: translate(10px);
-  -o-transform: translate(10px);
-}
+  100% {
+    transform: translate(10px);
+    -webkit-transform: translate(10px);
+    -moz-transform: translate(10px);
+    -ms-transform: translate(10px);
+    -o-transform: translate(10px);
+  }
 }
 .up a i {
   color: var(--sec-color);
@@ -353,7 +352,6 @@ ul li a:hover {
 }
 /* end about section */
 
-
 /* start gallery section */
 .gallery {
   margin-top: 300px;
@@ -363,22 +361,18 @@ img {
   vertical-align: middle;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
 .containers {
   position: relative;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -395,13 +389,10 @@ img {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
@@ -471,3 +462,207 @@ img {
   border: 1ps solid transparent;
   margin-bottom: 30px;
 }
+
+/* end gallary */
+
+/* start team section */
+.team {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.team .container h1 {
+  color: var(--sec-color);
+  font-size: 60px;
+  /* border-bottom: 3px solid var(--main-color); */
+  padding-bottom: 5px;
+  text-align: center;
+  /* width: fit-content; */
+  margin-bottom: 0px;
+}
+.team .container h1 span.us {
+  color: var(--main-color);
+}
+
+.team hr {
+  width: 330px;
+  height: 2px;
+  background-color: var(--sec-color);
+  outline: 1px solid transparent;
+  border: 1ps solid transparent;
+  margin-bottom: 80px;
+}
+
+.team .container .super {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.team .container .super .social{
+  text-align: center;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.team .container .super .social i {
+  display: inline-block;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.team .container .super .omar img {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.team .container .super .omar {
+position: relative;
+margin-bottom: 20px;
+}
+
+.team .container .super .omar h4 {
+  position: absolute;
+  top: 97px;
+    left: 57px;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  display: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.team .container .super .sesa::before
+ {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #022c439a;
+  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: var(--sec-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.team .container .super .bashir::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #022c439a;
+  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: var(--sec-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.team .container .super .sesa:hover::before ,
+.team .container .super .bashir:hover::before{
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  
+}
+
+.team .container .super .omar:hover h4 {
+  display: block;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.fa-facebook-f {
+  font-size: 20px;
+  color: #3b5998;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.fa-facebook-f:hover,
+ .fa-linkedin:hover,
+ .fa-github:hover,
+ .fa-envelope:hover{
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.fa-github {
+  color: #000;
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+
+.fa-envelope {
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: rgb(172, 34, 34);
+}
+
+.coach {
+  margin-bottom: 20px;
+}
+
+
+/* end team section */
