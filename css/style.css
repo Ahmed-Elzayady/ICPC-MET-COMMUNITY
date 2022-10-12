@@ -264,7 +264,7 @@ ul li a:hover {
 }
 
 .about hr {
-  width: 400px;
+  width: 300px;
   height: 2px;
   background-color: var(--sec-color);
   outline: 1px solid transparent;
@@ -298,7 +298,7 @@ ul li a:hover {
 
 @media (max-width: 760px) {
   .about .container .all-text .image-about img {
-    width: 300px;
+    width: 320px;
     position: absolute;
     left: 30px;
   }
