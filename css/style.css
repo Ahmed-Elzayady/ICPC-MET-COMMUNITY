@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --main-color: #022c43;
   --sec-color: #ffd700;
@@ -10,6 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  user-select: none;
 
   /* min-height: 250vh; */
 }
@@ -46,6 +50,53 @@ body {
 
 /* start nav-bar section */
 
+
+@keyframes down {
+  0% {
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+}
+
+100% {
+  transform: translate(10px);
+  -webkit-transform: translate(10px);
+  -moz-transform: translate(10px);
+  -ms-transform: translate(10px);
+  -o-transform: translate(10px);
+}
+}
+.up i {
+  color: var(--sec-color);
+  font-size: 30px;
+  background-color: var(--main-color);
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: down;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: alternate-reverse;
+  z-index: 23456748678974894;
+}
+
+.up i:hover {
+  animation-play-state: paused;
+}
 nav {
   background-color: #022c43;
   padding: 5px;
@@ -284,7 +335,6 @@ ul li a:hover {
   line-height: 2.5;
   font-weight: bold;
 }
-
 
 @media (max-width: 760px) {
   .about .container .all-text {
