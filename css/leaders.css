@@ -13,6 +13,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   /* user-select: none; */
 }
 
@@ -231,3 +234,121 @@ ul li a:hover {
 }
 
 /* end nav bar section */
+
+.leaders .container .all-members{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 40px;
+}
+
+.leaders .container .all-members .elmy-img img {
+  max-width: 100%;
+}
+.leaders .container .all-members .elmy {
+  text-align: center;
+  border: 2px solid var(--main-color);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px !important;
+  color: var(--sec-color);
+  margin-bottom: 10px;
+
+}
+
+hr {
+  width: 300px;
+  background-color: var(--main-color);
+  height: 3px;
+  margin-bottom: 80px;
+}
+
+.container {
+  width: 80%;
+}
+
+.video video{
+  max-width: 600px;
+  min-width: auto;
+  border: 2px solid var(--main-color);
+  padding: 5px;
+  margin-top: 30px;
+}
+
+
+@media(max-width: 760px) {
+  .video video{
+
+    max-width: 300px;
+  }
+}
+
+h3 {
+  color: #888;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.fa-facebook-f {
+  font-size: 40px;
+  color: #3b5998;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.fa-facebook-f:hover,
+ .fa-linkedin:hover,
+ .fa-github:hover,
+ .fa-envelope:hover{
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+  font-size: 40px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.fa-github {
+  color: #000;
+  font-size: 40px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+
+.fa-envelope {
+  font-size: 40px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: rgb(172, 34, 34);
+}
+
+
+i {
+  padding: 15px;
+}
