@@ -298,7 +298,7 @@ ul li a:hover {
 
 @media (max-width: 760px) {
   .about .container .all-text .image-about img {
-    width: 310px;
+    width: 300px;
     position: absolute;
     left: 30px;
   }
