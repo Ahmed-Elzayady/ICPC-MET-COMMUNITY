@@ -353,11 +353,7 @@ ul li a:hover {
 /* end about section */
 
 /* start gallery section */
-@media(max-width: 790px) {
-  .gallery {
-    /* margin-top: 300px; */
-  }
-}
+
 
 img {
   vertical-align: middle;
