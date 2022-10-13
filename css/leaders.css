@@ -286,7 +286,7 @@ hr {
 @media(max-width: 760px) {
   .video video{
 
-    max-width: 370px;
+    max-width: 300px;
     margin-top: 20px;
   }
 }
