@@ -18,6 +18,7 @@
     <title>Contact Us</title>
   </head>
   <body>
+    <div id="loaderr"></div>
     <nav class="bar">
       <div class="container">
         <div class="all">
@@ -111,5 +112,12 @@
       </div>
     </div>
     <script src="../js/script.js"></script>
+    <script>
+      var loader =document.getElementById("loaderr");
+      window.addEventListener("load" , function () {
+
+        loader.style.display="none" ;
+      } )
+    </script>
   </body>
 </html>

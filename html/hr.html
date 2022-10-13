@@ -24,6 +24,7 @@
     </style> -->
   </head>
   <body>
+    <div id="loaderr"></div>
     <div class="up">
       <a href="#">
         <i class="fas fa-arrow-up"></i>
@@ -248,5 +249,12 @@
         All Right Reserved
       </p>
     </footer>
+    <script>
+      var loader =document.getElementById("loaderr");
+      window.addEventListener("load" , function () {
+
+        loader.style.display="none" ;
+      } )
+    </script>
   </body>
 </html>
