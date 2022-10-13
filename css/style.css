@@ -518,7 +518,7 @@ img {
 }
 
 .team .container .super .omar img {
-  max-width: 300px;
+  max-width: 350px;
   max-height: 500px;
 }
 
@@ -733,4 +733,15 @@ footer a {
 }
 footer p {
   margin: 0;
+}
+
+
+.super .social h4 {
+  text-align: center;
+  color: #888;
+  font-size: 35px;
+  margin: 0;
+padding: 15px;
+
+
 }
