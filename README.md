@@ -11,12 +11,3 @@ ICPC MET COMMUNITY
 <img src="./images/pr.jpg">
 <img src="./images/hr.jpg">
 </div>
-
-<style>
-
-  div {
-    display: flex;
-    justufy-content: space-evenly;
-    align-items: center;
-  }
-</style>
