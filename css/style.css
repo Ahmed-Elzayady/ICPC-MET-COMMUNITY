@@ -628,17 +628,25 @@ margin-bottom: 20px;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
-
+.social i{
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 30px !important;
+}
 .fa-facebook-f:hover,
  .fa-linkedin:hover,
  .fa-github:hover,
  .fa-envelope:hover{
-  transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
+  transform: scale(1.3) rotate(730deg);
+  -webkit-transform: scale(1.3) rotate(730deg);
+  -moz-transform: scale(1.3) rotate(730deg);
+  -ms-transform: scale(1.3) rotate(730deg);
+  -o-transform: scale(1.3) rotate(730deg);
 }
 
 .fa-linkedin {
@@ -649,6 +657,10 @@ margin-bottom: 20px;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 .fa-github {
@@ -659,6 +671,10 @@ margin-bottom: 20px;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+  border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -670,6 +686,13 @@ margin-bottom: 20px;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
   color: rgb(172, 34, 34);
+  border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .coach,

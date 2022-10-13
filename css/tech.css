@@ -323,12 +323,14 @@ ul li a:hover {
    .fa-linkedin:hover,
    .fa-github:hover,
    .fa-envelope:hover{
-    transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    -o-transform: scale(1.3);
-  }
+    transform: scale(1.3) rotateY(360deg);
+    -webkit-transform: scale(1.3) rotateY(360deg);
+    -moz-transform: scale(1.3) rotateY(360deg);
+    -ms-transform: scale(1.3) rotateY(360deg);
+    -o-transform: scale(1.3) rotateY(360deg);
+    
+}
+
   
   .fa-linkedin {
     color: #0e76a8;
