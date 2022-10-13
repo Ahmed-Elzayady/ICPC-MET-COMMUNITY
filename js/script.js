@@ -32,3 +32,17 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+
+'use strict';
+
+function typeWriter(an) {
+    const textArray = an.innerHTML.split('');
+    an.innerHTML = '';
+    textArray.forEach((letter, a) =>
+        setTimeout(() => (an.innerHTML += letter), 95 * a)
+    );
+    setInterval(() => typeWriter(an), 8000);
+}
+
+typeWriter(animation);

@@ -379,3 +379,31 @@ footer a {
 footer p {
   margin: 0;
 }
+
+#animation::after {
+  content: "|";
+  margin-left: 5px;
+  animation: type 0.8s infinite;
+  -webkit-animation: type 0.8s infinite;
+}
+
+@keyframes type {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.ll {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ll p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
