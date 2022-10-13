@@ -46,3 +46,6 @@ function typeWriter(an) {
 }
 
 typeWriter(animation);
+
+
+
