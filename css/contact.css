@@ -267,7 +267,6 @@ form {
   -o-border-radius: 10px;
 }
 
-
 input {
   margin-bottom: 20px;
   padding: 15px;
@@ -287,14 +286,13 @@ input {
   -o-transition: 0.5s;
 }
 
-
 input:hover::placeholder,
 textarea:hover::placeholder {
-  transform: translate(-10px,-15px);
-  -webkit-transform: translate(-10px,-15px);
-  -moz-transform: translate(-10px,-15px);
-  -ms-transform: translate(-10px,-15px);
-  -o-transform: translate(-10px,-15px);
+  transform: translate(-10px, -15px);
+  -webkit-transform: translate(-10px, -15px);
+  -moz-transform: translate(-10px, -15px);
+  -ms-transform: translate(-10px, -15px);
+  -o-transform: translate(-10px, -15px);
   font-size: 15px;
 }
 textarea {
@@ -366,7 +364,7 @@ button:active {
   flex-wrap: wrap;
 }
 
-@media(max-width: 1036px) {
+@media (max-width: 1036px) {
   .all {
     display: block;
   }
@@ -378,14 +376,14 @@ button:active {
 
   input,
   textarea {
-max-width: 300px;
+    max-width: 300px;
   }
 }
 
-@media(max-width: 790px) {
+@media (max-width: 790px) {
   input,
   textarea {
-max-width: 230px;
+    max-width: 230px;
   }
 
   img {
