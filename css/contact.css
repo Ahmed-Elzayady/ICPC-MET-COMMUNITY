@@ -381,3 +381,15 @@ button:active {
 max-width: 300px;
   }
 }
+
+@media(max-width: 790px) {
+  input,
+  textarea {
+max-width: 250px;
+  }
+
+  img {
+    max-width: 370px;
+    margin-left: 25px;
+  }
+}
