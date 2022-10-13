@@ -344,18 +344,18 @@ ul li a:hover {
 }
 
 @media (max-width: 760px) {
-  .about .container .all-text .image-about img {
+.about .container .all-text .image-about img {
     width: 320px;
-    position: absolute;
+    /* position: absolute; */
     left: 30px;
-  }
+}
 }
 /* end about section */
 
 /* start gallery section */
 @media(max-width: 790px) {
   .gallery {
-    margin-top: 300px;
+    /* margin-top: 300px; */
   }
 }
 
