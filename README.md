@@ -19,8 +19,8 @@ This is a MET ICPC COMMUNITY website that explains what this community is and wh
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Main-color | ![#022c43](https://via.placeholder.com/10/022c43/t) #022c43 |
-| Sec-color | ![#ffd700](https://via.placeholder.com/10/ffd700/ffd700) #ffd700 |
+| Main-color | ![#022c43] #022c43 |
+| Sec-color | ![#ffd700] #ffd700 |
 
 
 
