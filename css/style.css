@@ -738,12 +738,9 @@ footer {
 }
 
 footer a {
- text-decoration: none;
- color: var(--main-color);
- 
-
+  text-decoration: none;
+  color: var(--main-color);
 }
-
 
 .super .social h4 {
   text-align: center;
@@ -786,4 +783,108 @@ footer a {
   width: 100%;
   position: fixed;
   z-index: 8978978556185949289789728972897897189718970894897891787897089728;
+}
+
+.contacts-icon {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contacts-icon .container i {
+  font-size: 40px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.contacts-icon .container .fa-facebook {
+  color: #3b5998;
+}
+
+.contacts-icon .container .fa-facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.contacts-icon .container i:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.contacts-icon .container .fa-instagram {
+  color: rgb(156, 24, 24);
+}
+
+.contacts-icon .container .fa-instagram:hover {
+  background-color: rgb(156, 24, 24);
+  color: #fff;
+}
+
+.contacts-icon .container .fa-twitter {
+  color: #1da1f2;
+}
+
+.contacts-icon .container .fa-twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.contacts-icon .container .fa-github-square {
+  color: #000;
+}
+.contacts-icon .container .fa-github-square:hover {
+  background-color: #000;
+  color: #fff;
+}
+.contacts-icon .container .fa-youtube {
+  color: #ff0000;
+}
+
+.contacts-icon .container .fa-youtube:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.contacts-icon .container .fa-linkedin-in {
+  color: #0e76a8;
+}
+.contacts-icon .container .fa-linkedin-in:hover {
+  background-color: #0e76a8;
+  color: #fff;
+}
+
+
+.contacts-icon .container h1 {
+  color: var(--sec-color);
+  font-size: 60px;
+  /* border-bottom: 3px solid var(--main-color); */
+  padding-bottom: 5px;
+  text-align: center;
+  /* width: fit-content; */
+  margin-bottom: 0px;
+}
+.contacts-icon .container h1 span.us {
+  color: var(--main-color);
+}
+
+.contacts-icon hr {
+  width: 330px;
+  height: 2px;
+  background-color: var(--sec-color);
+  outline: 1px solid transparent;
+  border: 1ps solid transparent;
+  margin-bottom: 80px;
 }
