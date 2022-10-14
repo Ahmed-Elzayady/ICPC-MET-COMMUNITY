@@ -396,24 +396,17 @@ i {
 }
 
 footer {
-  background-color: var(--main-color);
-  color: #fff;
-  width: 100%;
-  padding: 5px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   text-align: center;
+  color: rgba(136, 136, 136, 0.651);
   font-weight: bold;
   font-size: 15px;
 }
 
 footer a {
-  color: var(--sec-color);
-  text-decoration: none;
-}
-footer p {
-  margin: 0;
+ text-decoration: none;
+ color: var(--main-color);
+ 
+
 }
 #animation::after {
   content: "|";

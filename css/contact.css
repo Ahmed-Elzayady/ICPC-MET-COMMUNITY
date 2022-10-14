@@ -428,3 +428,18 @@ button:active {
   position: fixed;
   z-index: 8978978556185949289789728972897897189718970894897891787897089728;
  }
+
+
+ footer {
+  text-align: center;
+  color: rgba(136, 136, 136, 0.651);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+footer a {
+ text-decoration: none;
+ color: var(--main-color);
+ 
+
+}
