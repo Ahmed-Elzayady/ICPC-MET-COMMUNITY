@@ -37,15 +37,19 @@ function showSlides(n) {
 'use strict';
 
 function typeWriter(an) {
-    const textArray = an.innerHTML.split('');
-    an.innerHTML = '';
-    textArray.forEach((letter, a) =>
-        setTimeout(() => (an.innerHTML += letter), 95 * a)
-    );
-    setInterval(() => typeWriter(an), 8000);
+  const textArray = an.innerHTML.split('');
+  an.innerHTML = '';
+  textArray.forEach((letter, a) =>
+    setTimeout(() => (an.innerHTML += letter), 95 * a)
+  );
+  setInterval(() => typeWriter(an), 8000);
 }
 
 typeWriter(animation);
 
 
 
+var loader = document.getElementById("loaderr");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});

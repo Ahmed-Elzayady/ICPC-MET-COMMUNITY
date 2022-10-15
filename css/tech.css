@@ -241,11 +241,6 @@ ul li a:hover {
 }
 /* end nav bar section */
 
-.elmy.ziad.hide {
-  visibility: hidden;
-  display: none;
-}
-
 .leaders .container .all-members {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -360,11 +355,6 @@ i {
   padding: 15px;
 }
 
-@media (max-width: 790px) {
-  .hide {
-    display: none;
-  }
-}
 .elmy-img {
   position: relative;
 }
@@ -405,10 +395,8 @@ footer {
 }
 
 footer a {
- text-decoration: none;
- color: var(--main-color);
- 
-
+  text-decoration: none;
+  color: var(--main-color);
 }
 #animation::after {
   content: "|";
@@ -439,9 +427,9 @@ footer a {
 }
 
 #loaderr {
-  background: #fbfbfb url(../images/loader.gif) no-repeat center center;
+  background: #fff url(../images/sidna-mohammed.png) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 8978978556185949289789728972897897189718970894897891787897089728;
- }
+}

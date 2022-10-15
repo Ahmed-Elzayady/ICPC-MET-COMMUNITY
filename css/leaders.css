@@ -242,7 +242,7 @@ ul li a:hover {
 
 .leaders .container .all-members {
   display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 50px;
 }
 
@@ -265,7 +265,6 @@ h1 {
   font-size: 70px !important;
   color: var(--sec-color);
   margin-bottom: 10px;
-
 }
 
 hr {
@@ -279,7 +278,7 @@ hr {
   width: 80%;
 } */
 
-.video video{
+.video video {
   max-width: 100%;
   min-width: auto;
   border: 2px solid var(--main-color);
@@ -287,10 +286,8 @@ hr {
   margin-top: 100px;
 }
 
-
-@media(max-width: 760px) {
-  .video video{
-
+@media (max-width: 760px) {
+  .video video {
     max-width: 300px;
     margin-top: 20px;
   }
@@ -313,17 +310,16 @@ h3 {
 }
 
 .fa-facebook-f:hover,
- .fa-linkedin:hover,
- .fa-github:hover,
- .fa-envelope:hover{
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
   transform: scale(1.3) rotateY(360deg);
   -webkit-transform: scale(1.3) rotateY(360deg);
   -moz-transform: scale(1.3) rotateY(360deg);
   -ms-transform: scale(1.3) rotateY(360deg);
   -o-transform: scale(1.3) rotateY(360deg);
-
 }
-.social i{
+.social i {
   margin-left: 10px;
   padding: 10px;
   /* font-size: 30px !important; */
@@ -348,7 +344,6 @@ h3 {
   -o-transition: 0.5s;
 }
 
-
 .fa-envelope {
   font-size: 40px;
   transition: 0.5s;
@@ -358,7 +353,6 @@ h3 {
   -o-transition: 0.5s;
   color: rgb(172, 34, 34);
 }
-
 
 i {
   padding: 15px;
@@ -373,10 +367,8 @@ footer {
 }
 
 footer a {
- text-decoration: none;
- color: var(--main-color);
- 
-
+  text-decoration: none;
+  color: var(--main-color);
 }
 #animation::after {
   content: "|";
@@ -406,9 +398,9 @@ footer a {
   font-weight: bold;
 }
 #loaderr {
-  background: #fbfbfb url(../images/loader.gif) no-repeat center center;
+  background: #fff url(../images/sidna-mohammed.png) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 8978978556185949289789728972897897189718970894897891787897089728;
- }
+}

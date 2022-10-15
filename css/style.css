@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* main colors */
 :root {
   --main-color: #022c43;
   --sec-color: #ffd700;
@@ -46,8 +48,7 @@ body {
 }
 /*end of global rules*/
 
-/* start nav-bar section */
-
+/* animation of row to top */
 @keyframes down {
   0% {
     transform: translateY(0px);
@@ -55,7 +56,7 @@ body {
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
-}
+  }
 
   100% {
     transform: translateY(10px);
@@ -63,8 +64,10 @@ body {
     -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
+  }
 }
-}
+
+/* icon of row to top */
 .up a i {
   color: var(--sec-color);
   font-size: 30px;
@@ -94,6 +97,8 @@ body {
 .up i:hover {
   animation-play-state: paused;
 }
+
+/* start nav bar */
 nav {
   background-color: #022c43;
   padding: 5px;
@@ -153,10 +158,7 @@ ul li a:hover {
     top: -51px;
     right: 26px;
   }
-
   nav {
-    /*height: 450px;
-    */
     transition: 2s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -241,7 +243,6 @@ ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 
 .landing .container .all-cont .gif img {
@@ -250,7 +251,6 @@ ul li a:hover {
 
 .landing .container .all-cont .text h2 {
   line-height: 1.8;
-  /* padding-right: 25px; */
   max-width: 500px;
   font-size: 30px;
 }
@@ -258,14 +258,11 @@ ul li a:hover {
 .landing .container {
   width: 70%;
 }
-/* end landing  section */
 
 .landing h1 {
-  /* font-size: 75px; */
   color: #022c43;
   border-bottom: 4px solid var(--sec-color);
   padding-bottom: 10px;
-  /* max-width: 600px; */
 }
 @media (max-width: 1354px) {
   .landing .container .all-cont .gif img {
@@ -298,10 +295,8 @@ ul li a:hover {
 .about .container h1 {
   color: var(--sec-color);
   font-size: 60px;
-  /* border-bottom: 3px solid var(--main-color); */
   padding-bottom: 5px;
   text-align: center;
-  /* width: fit-content; */
   margin-bottom: 0px;
 }
 .about .container h1 span.us {
@@ -316,14 +311,13 @@ ul li a:hover {
   height: 2px;
   background-color: var(--sec-color);
   outline: 1px solid transparent;
-  border: 1ps solid transparent;
+  border: 1px solid transparent;
 }
 
 .about .container .all-text {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 
 .about .container .all-text p {
@@ -346,7 +340,6 @@ ul li a:hover {
 @media (max-width: 760px) {
   .about .container .all-text .image-about img {
     width: 320px;
-    /* position: absolute; */
     left: 30px;
   }
 }
@@ -395,7 +388,6 @@ img {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -404,7 +396,6 @@ img {
   top: 0;
 }
 
-/* Container for image text */
 .caption-container {
   text-align: center;
   background-color: var(--main-color);
@@ -418,14 +409,11 @@ img {
   display: table;
   clear: both;
 }
-
-/* Six columns side by side */
 .column {
   float: left;
   width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
@@ -438,10 +426,8 @@ img {
 .gallery h1 {
   color: var(--sec-color);
   font-size: 60px;
-  /* border-bottom: 3px solid var(--main-color); */
   padding-bottom: 5px;
   text-align: center;
-  /* width: fit-content; */
   margin-bottom: 0px;
 }
 .gallery h1 span.us {
@@ -471,10 +457,8 @@ img {
 .team .container h1 {
   color: var(--sec-color);
   font-size: 60px;
-  /* border-bottom: 3px solid var(--main-color); */
   padding-bottom: 5px;
   text-align: center;
-  /* width: fit-content; */
   margin-bottom: 0px;
 }
 .team .container h1 span.us {
@@ -560,14 +544,6 @@ img {
   font-weight: bolder;
 }
 
-/* .team .container .super .coach:hover,
-.team .container .super .co-coach:hover {
-  transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
-} */
 .team .container .super .bashir::before {
   content: "";
   position: absolute;
@@ -725,11 +701,6 @@ img {
   -o-transform: scale(1.1);
 }
 
-/* footer span {
-  display: block;
-  padding-top: 10px;
-} */
-
 footer {
   text-align: center;
   color: rgba(136, 136, 136, 0.651);
@@ -779,7 +750,7 @@ footer a {
   font-weight: bold;
 }
 #loaderr {
-  background: #fbfbfb url(../images/sidna\ mohammed.png) no-repeat center center;
+  background: #fff url(../images/sidna-mohammed.png) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -867,14 +838,11 @@ footer a {
   color: #fff;
 }
 
-
 .contacts-icon .container h1 {
   color: var(--sec-color);
   font-size: 60px;
-  /* border-bottom: 3px solid var(--main-color); */
   padding-bottom: 5px;
   text-align: center;
-  /* width: fit-content; */
   margin-bottom: 0px;
 }
 .contacts-icon .container h1 span.us {
