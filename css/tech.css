@@ -243,6 +243,7 @@ ul li a:hover {
 
 .elmy.ziad.hide {
   visibility: hidden;
+  display: none;
 }
 
 .leaders .container .all-members {
@@ -284,7 +285,7 @@ hr {
 }
 
 .video video {
-  max-width: 600px;
+  max-width: 100%;
   min-width: auto;
   border: 2px solid var(--main-color);
   padding: 5px;
@@ -400,6 +401,7 @@ footer {
   color: rgba(136, 136, 136, 0.651);
   font-weight: bold;
   font-size: 15px;
+  margin-top: 50px;
 }
 
 footer a {

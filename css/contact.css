@@ -435,6 +435,7 @@ button:active {
   color: rgba(136, 136, 136, 0.651);
   font-weight: bold;
   font-size: 15px;
+  margin-top: 50px;
 }
 
 footer a {

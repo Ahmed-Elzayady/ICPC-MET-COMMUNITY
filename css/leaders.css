@@ -235,10 +235,15 @@ ul li a:hover {
 
 /* end nav bar section */
 
-.leaders .container .all-members{
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-gap: 40px;
+/* 
+.leaders .container {
+  width: 80%
+} */
+
+.leaders .container .all-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+  gap: 50px;
 }
 
 .leaders .container .all-members .elmy-img img {
@@ -270,12 +275,12 @@ hr {
   margin-bottom: 80px;
 }
 
-.container {
+/* .container {
   width: 80%;
-}
+} */
 
 .video video{
-  max-width: 600px;
+  max-width: 100%;
   min-width: auto;
   border: 2px solid var(--main-color);
   padding: 5px;
@@ -364,6 +369,7 @@ footer {
   color: rgba(136, 136, 136, 0.651);
   font-weight: bold;
   font-size: 15px;
+  margin-top: 50px;
 }
 
 footer a {
