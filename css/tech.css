@@ -314,11 +314,11 @@ h3 {
 .fa-linkedin:hover,
 .fa-github:hover,
 .fa-envelope:hover {
-  transform: scale(1.3) rotateY(360deg);
-  -webkit-transform: scale(1.3) rotateY(360deg);
-  -moz-transform: scale(1.3) rotateY(360deg);
-  -ms-transform: scale(1.3) rotateY(360deg);
-  -o-transform: scale(1.3) rotateY(360deg);
+  transform:  rotate(730deg);
+  -webkit-transform:  rotate(730deg);
+  -moz-transform:  rotate(730deg);
+  -ms-transform:  rotate(730deg);
+  -o-transform:  rotate(730deg);
 }
 
 .fa-linkedin {
