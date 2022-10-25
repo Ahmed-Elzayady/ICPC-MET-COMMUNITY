@@ -49,7 +49,7 @@ For support, email ahmedmagdi0879@gmail.com
 
 
 # LOGO
-![Logo](https://ahmed-elzayady.github.io/ICPC-MET-COMMUNITY/images/MET_4_-_Edited-removebg-preview-modified-removebg-preview.png)
+![Logo](https://i.postimg.cc/fbmwd2PN/community-logo-rubiks-cube7.png)
 
 
 ## Feedback
