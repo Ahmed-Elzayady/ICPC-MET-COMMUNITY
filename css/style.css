@@ -710,7 +710,7 @@ img {
 
 .team .logos img {
   max-width: 100%;
-  border: 3px solid var(--sec-color);
+  border: 3px solid var(--main-color);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
