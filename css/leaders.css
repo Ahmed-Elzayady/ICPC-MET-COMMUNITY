@@ -128,8 +128,9 @@ ul li a {
 }
 
 nav .container .all .logo img {
-  max-width: 60px;
-  margin-top: 5px;
+  max-width: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 ul li a:hover {
@@ -209,7 +210,7 @@ ul li a:hover {
   }
 
   nav.active {
-    height: 529px;
+    height: 450px;
   }
 
   nav.active ul {

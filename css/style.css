@@ -69,9 +69,9 @@ body {
 
 /* icon of row to top */
 .up a i {
-  color: var(--sec-color);
-  font-size: 30px;
-  background-color: var(--main-color);
+  color: var(--main-color);
+  font-size: 50px;
+  /* background-color: var(--main-color); */
   width: 40px;
   height: 40px;
   padding: 5px;
@@ -130,8 +130,9 @@ ul li a {
 }
 
 nav .container .all .logo img {
-  max-width: 60px;
+  max-width: 40px;
   margin-top: 5px;
+  margin-right: 5px;
 }
 
 ul li a:hover {
@@ -208,7 +209,7 @@ ul li a:hover {
   }
 
   nav.active {
-    height: 529px;
+    height: 450px;
   }
 
   nav.active ul {
@@ -244,9 +245,51 @@ ul li a:hover {
   justify-content: space-between;
   align-items: center;
 }
+@keyframes updown {
+  0% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+100% {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+100% {
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+}
+}
+
 
 .landing .container .all-cont .gif img {
   width: 700px;
+  animation-name: updown;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 1s;
 }
 
 .landing .container .all-cont .text h2 {
@@ -308,10 +351,7 @@ ul li a:hover {
 
 .about hr {
   width: 300px;
-  height: 2px;
-  background-color: var(--sec-color);
-  outline: 1px solid transparent;
-  border: 1px solid transparent;
+  margin-bottom: 60px;
 }
 
 .about .container .all-text {
@@ -336,7 +376,14 @@ ul li a:hover {
     text-align: center;
   }
 }
-
+.about .container .all-text .image-about img  {
+  animation-name: rotate;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 3s;
+}
 @media (max-width: 760px) {
   .about .container .all-text .image-about img {
     width: 320px;
@@ -439,11 +486,8 @@ img {
 
 .gallery hr {
   width: 300px;
-  height: 2px;
-  background-color: var(--sec-color);
-  outline: 1px solid transparent;
-  border: 1ps solid transparent;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  
 }
 
 /* end gallary */
@@ -467,11 +511,7 @@ img {
 
 .team hr {
   width: 330px;
-  height: 2px;
-  background-color: var(--sec-color);
-  outline: 1px solid transparent;
-  border: 1ps solid transparent;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .team .container .super {
@@ -798,17 +838,38 @@ footer a {
 }
 .contacts-icon .container .fa-instagram {
   color: rgb(156, 24, 24);
+
+ 
 }
 
 .contacts-icon .container .fa-instagram:hover {
-  background-color: rgb(156, 24, 24);
+  background-image: linear-gradient(
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
   color: #fff;
 }
 
 .contacts-icon .container .fa-twitter {
   color: #1da1f2;
 }
+.contacts-icon .container .fa-discord {
+  color: #7289d9;
+}
 
+.contacts-icon .container .fa-discord:hover {
+  background-color: #7289d9;
+  color: #fff;
+  cursor: pointer;
+}
 .contacts-icon .container .fa-twitter:hover {
   background-color: #1da1f2;
   color: #fff;
@@ -851,9 +912,5 @@ footer a {
 
 .contacts-icon hr {
   width: 330px;
-  height: 2px;
-  background-color: var(--sec-color);
-  outline: 1px solid transparent;
-  border: 1ps solid transparent;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
