@@ -3,3 +3,21 @@ images/screencapture-ahmed-elzayady-github-io-ICPC-MET-COMMUNITY-2022-10-12-21_3
 
 README.md
 contact.html
+
+<div class="elmy ziad">
+            <div class="elmy-img">
+              <img src="../images/Doaa.jpeg" alt="elmy" />
+            </div>
+            <div class="text">
+              <h3>
+                Doaa Naser <br />
+                Member
+              </h3>
+            </div>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
