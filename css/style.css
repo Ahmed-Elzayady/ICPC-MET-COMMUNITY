@@ -103,6 +103,9 @@ nav {
   background-color: #022c43;
   padding: 5px;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999;
 }
 nav .container .all {
   display: flex;
@@ -209,7 +212,7 @@ ul li a:hover {
   }
 
   nav.active {
-    height: 450px;
+    height: 520px;
   }
 
   nav.active ul {
@@ -252,17 +255,16 @@ ul li a:hover {
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
-}
+  }
 
-100% {
-  transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
+  100% {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
 }
-}
-
 
 @keyframes rotate {
   0% {
@@ -271,16 +273,15 @@ ul li a:hover {
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+  }
 }
-100% {
-  transform: rotate(5deg);
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-}
-}
-
 
 .landing .container .all-cont .gif img {
   width: 700px;
@@ -376,7 +377,7 @@ ul li a:hover {
     text-align: center;
   }
 }
-.about .container .all-text .image-about img  {
+.about .container .all-text .image-about img {
   animation-name: rotate;
   animation-fill-mode: both;
   animation-play-state: running;
@@ -492,7 +493,6 @@ img {
 .gallery hr {
   width: 300px;
   margin-bottom: 60px;
-  
 }
 
 /* end gallary */
@@ -843,8 +843,6 @@ footer a {
 }
 .contacts-icon .container .fa-instagram {
   color: rgb(156, 24, 24);
-
- 
 }
 
 .contacts-icon .container .fa-instagram:hover {

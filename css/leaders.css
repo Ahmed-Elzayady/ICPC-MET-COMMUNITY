@@ -129,8 +129,8 @@ ul li a {
 
 nav .container .all .logo img {
   max-width: 40px;
-    margin-top: 5px;
-    margin-right: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 ul li a:hover {
@@ -210,7 +210,7 @@ ul li a:hover {
   }
 
   nav.active {
-    height: 450px;
+    height: 520px;
   }
 
   nav.active ul {
@@ -314,11 +314,11 @@ h3 {
 .fa-linkedin:hover,
 .fa-github:hover,
 .fa-envelope:hover {
-  transform:  rotate(730deg);
-  -webkit-transform:  rotate(730deg);
-  -moz-transform:  rotate(730deg);
-  -ms-transform:  rotate(730deg);
-  -o-transform:  rotate(730deg);
+  transform: rotate(730deg);
+  -webkit-transform: rotate(730deg);
+  -moz-transform: rotate(730deg);
+  -ms-transform: rotate(730deg);
+  -o-transform: rotate(730deg);
 }
 .social i {
   margin-left: 10px;

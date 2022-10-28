@@ -58,7 +58,7 @@ body {
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
-}
+  }
 
   100% {
     transform: translateY(10px);
@@ -66,7 +66,7 @@ body {
     -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
-}
+  }
 }
 .up a i {
   color: var(--main-color);
@@ -128,8 +128,8 @@ ul li a {
 
 nav .container .all .logo img {
   max-width: 40px;
-    margin-top: 5px;
-    margin-right: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 ul li a:hover {
@@ -275,9 +275,6 @@ hr {
   margin-bottom: 80px;
 }
 
-.container {
-  width: 80%;
-}
 
 .video video {
   max-width: 100%;
@@ -314,11 +311,11 @@ h3 {
 .fa-linkedin:hover,
 .fa-github:hover,
 .fa-envelope:hover {
-  transform:  rotate(730deg);
-  -webkit-transform:  rotate(730deg);
-  -moz-transform:  rotate(730deg);
-  -ms-transform:  rotate(730deg);
-  -o-transform:  rotate(730deg);
+  transform: rotate(730deg);
+  -webkit-transform: rotate(730deg);
+  -moz-transform: rotate(730deg);
+  -ms-transform: rotate(730deg);
+  -o-transform: rotate(730deg);
 }
 
 .fa-linkedin {
@@ -432,4 +429,53 @@ footer a {
   width: 100%;
   position: fixed;
   z-index: 8978978556185949289789728972897897189718970894897891787897089728;
+}
+
+.bottom {
+  width: 300px;
+  height: 7px;
+  background-color: #4981c2;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.bottom .move {
+  width: 8px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffde02;
+  animation-name: RF;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-fill-mode: both;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes RF {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(295px);
+    -webkit-transform: translateX(295px);
+    -moz-transform: translateX(295px);
+    -ms-transform: translateX(295px);
+    -o-transform: translateX(295px);
+  }
+}
+
+.animation {
+  position: relative;
+}
+
+.RF {
+  position: absolute;
 }
