@@ -715,7 +715,7 @@ img {
 
 .team .logos img {
   max-width: 100%;
-  border: 3px solid var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -916,4 +916,9 @@ footer a {
 .contacts-icon hr {
   width: 330px;
   margin-bottom: 60px;
+}
+
+
+.dr {
+  max-width: 100% !important
 }
